@@ -1,3 +1,5 @@
 remote_theme: Uni – A one-page Jekyll theme
 title: YMCbox
 layout: half
+
+theme: jekyll-theme-cayman

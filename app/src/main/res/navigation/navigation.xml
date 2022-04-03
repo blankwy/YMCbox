@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.blank.ymcbox.View.Main.MainFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/action_discover"
+        android:name="com.blank.ymcbox.View.Discover.DiscoverFragment"
+        android:label="@string/menu_discover"
+        tools:layout="@layout/discover_fragment" />
+    <fragment
+        android:id="@+id/action_me"
+        android:name="com.blank.ymcbox.View.Me.MeFragment"
+        android:label="@string/menu_mine"
+        tools:layout="@layout/me_fragment" />
+</navigation>

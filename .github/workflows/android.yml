@@ -26,11 +26,11 @@ jobs:
       uses: ravinderjangra/android-ndk-toolchain-setup@0.2
       with:
     # Android API
-       api: 24 # default is 21
+        api: 24 # default is 21
     # Platform arch
-       arch: x64
+        arch: x64
     # Path to use for NDK toolchain
-      install-location: 'toolchains'
+        install-location: 'toolchains'
     # Force install toolchain
         force: false # optional, default is false
     # Add toolchain to the path
